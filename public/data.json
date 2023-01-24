@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Tarte au citron",
+        "price": 1.2,
+        "img": "citron.jpeg"
+    },
+    {
+        "name": "Gateau au chocolat",
+        "price": 1.4,
+        "img": "chocolat.jpg"
+    },
+    {
+        "name": "Religieuse au chocolat",
+        "price": 2.3,
+        "img": "religieuse.jpg"
+    }
+]
