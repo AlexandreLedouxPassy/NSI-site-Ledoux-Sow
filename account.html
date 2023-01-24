@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon compte</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Accueil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="payment.html">Panier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="account.html">Mon compte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+
+
+    <div class="row">
+
+      <div class="col-auto">
+        <div class="card" style="width: 18rem;">
+          <img src="public/images/portrait.jpg" class="card-img-top" alt="portrait">
+          <div class="card-body">
+            <h5 class="card-title">Elon musk</h5>
+            <p class="card-text">Nom d'utilisateur : <span class="text-primary">@Elon_Musk</span></p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Compte créé en 2015</li>
+            <li class="list-group-item">Age : 51 ans</li>
+            <li class="list-group-item"> Email : elon.musk@passy-buzenval.com</li>
+            <li class="list-group-item">Vous avez <span class="text-primary">1</span> commande en attente</li>
+          </ul>
+
+        </div>
+      </div>
+
+
+
+      <div class="col">
+
+
+        <div class="card">
+          <div class="card-body">
+            <form class="row g-3 needs-validation" novalidate>
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Prénom</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Elon" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Nom de famille</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Musk" required>
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Nom d'utilisateur</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" value="Elon_Musk"
+                    aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Please choose a username.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-8">
+                <label for="validationCustom03" class="form-label">Email</label>
+                <div class="row">
+                  <div class="col-md-8">
+                    <input type="text" class="form-control" id="validationCustom03" value="elon.musk@passy-buzenval.com"
+                      required>
+                  </div>
+                  <div class="col">
+                    <button class="btn btn-primary" type="submit">Modifier</button>
+                  </div>
+                </div>
+                <div class="invalid-feedback">
+                  Please provide a valid city.
+                </div>
+              </div>
+
+
+
+
+            </form>
+          </div>
+        </div>
+
+
+
+        <div class="card mt-4">
+          <div class="card-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Dernières commandes</th>
+                  <th scope="col">Prix total</th>
+                  <th scope="col">Patisserie</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">10 janvier 2023</th>
+                  <td>3.10 $</td>
+                  <td>Tartes aux citrons, gateau au chocolat</td>
+                </tr>
+                <tr>
+                  <th scope="row">2 janvier 2023</th>
+                  <td>5.40 $</td>
+                  <td>Paris-Brest, religieuse</td>
+                </tr>
+                <tr>
+                  <th scope="row">31 décembre 2022</th>
+                  <td>2.30 $</td>
+                  <td>Chouquettes</td>
+                </tr>
+              </tbody>
+            </table>
+
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

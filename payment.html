@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mon panier</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/+ -->
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Accueil</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="payment.html">Panier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="account.html">Mon compte</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container">
+
+    <div class="row">
+        <div class="col">
+
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Produit</th>
+                    <th scope="col">Quantité</th>
+                    <th scope="col">Prix</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Tarte aux citrons</td>
+                    <td>2</td>
+                    <td>2.40 $</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Gateau au chocolat</td>
+                    <td>1</td>
+                    <td>1.30 $</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Religieuse au chocolat</td>
+                    <td>1</td>
+                    <td>2.30 $</td>
+                  </tr>
+                </tbody>
+              </table>
+
+        </div>
+
+        <div class="col">
+            
+            <div class="card mb-3">
+                <img src="public/images/payment.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Paiement - 8.40 $</h5>
+                  <p class="card-text">Choisissez votre moyen de paiement pour valider votre commande.</p>
+                  <p class="card-text"><small class="text-muted">Livraison gratuite dans 2 jours.</small></p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Payer par carte bancaire</li>
+                    <li class="list-group-item">Payer avec Visa</li>
+                    <li class="list-group-item">Payer avec Apple Pay</li>
+                  </ul>
+                
+              </div>
+              
+
+        </div>
+    </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
